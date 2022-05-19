@@ -28,7 +28,7 @@ Both Controller and Server are written in Swift, with Swift-NIO for the networki
 
 ## Current Status
 
-**THIS IS WORK IN PROGRESS AND SOME OF MY HARDWARE IS WAITING FOR OUT OF STOCK COMPONENTS**
+**THIS IS WORK IN PROGRESS, SO NO SOURCE CODE YET**
 
 All the sensors, relays and fan speed detection is working.
 
