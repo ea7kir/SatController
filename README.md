@@ -33,7 +33,7 @@ The Controller Server and Receive are written in Swift, with Swift-NIO for the n
 ## Acknowledgements
 
 - Members of the BATC [batc.org.uk](https://batc.org.uk)
-- Members of AMSAT-DL [batc.org.uk](https://amsat-dl.org/en/)
+- Members of AMSAT-DL [amsat-dl.org](https://amsat-dl.org/en/)
 - Swift Community [swift.org](https://swift.org)
 
 ## License
