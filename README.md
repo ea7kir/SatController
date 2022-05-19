@@ -4,17 +4,17 @@
 
 ## Description
 
-SatController, together with [SatServer](https://github.com/ea7kir/SatServer), will be a system for controlling and monitoring a Digital Amateur Television (DATV) equipment over a wired local area network.
+SatController, together with [SatServer](https://github.com/ea7kir/SatServer) and [SatCReceiver](https://github.com/ea7kir/SatReceiver), will be a system for controlling and monitoring a Digital Amateur Television (DATV) equipment over a wired local area network.
 
 ## Platform
 
 * Apple iMac
 * macOS 12 (Monterery)
-* Swift 5.5 (included with Xcode)
+* Swift 5.6 (included with Xcode)
 
 ## Implementation
 
-Both Controller and Server are written in Swift, with Swift-NIO for the networking.  The server runs as a service on the latest 64-bit version of raspOS.  The controller is a desktop application with a SwiftUI user interface on an Apple iMac.  Transmitted audio & video is sourced internally from the Mac version of OBS. Received audio & video can be monitored with VNC on the iMac or an Apple TV and HDMI television. All other equipment (transmitter, power amplifier, receiver, power supplies, peripherals and ancillaries) are situated outdoors - weather protected and close to the antennas.
+The Controller Server and Receive are written in Swift, with Swift-NIO for the networking.  The server and receiver run as a service on the latest 64-bit version of Raspberry Pi OS Lite.  The controller is a desktop application with a SwiftUI user interface on an Apple iMac.  Transmitted audio & video is sourced internally from the Mac version of OBS. Received audio & video can be monitored with VNC on the iMac or an Apple TV and HDMI television. All other equipment (transmitter, power amplifier, receiver, power supplies, peripherals and ancillaries) are situated outdoors - weather protected and close to the antennas.
 
 ## Supported Devices
 
@@ -30,16 +30,10 @@ Both Controller and Server are written in Swift, with Swift-NIO for the networki
 
 **THIS IS WORK IN PROGRESS, SO NO SOURCE CODE YET**
 
-All the sensors, relays and fan speed detection is working.
-
-Obviously, valid data will only be displayed if external hardware is connected.
-
-Next major changes will include more concurrency and revising the network protocol.
-
 ## Acknowledgements
 
 - Members of the BATC [batc.org.uk](https://batc.org.uk)
-- Swift-NIO [github.com/apple/swift-nio](https://github.com/apple/swift-nio)
+- Members of AMSAT-DL [batc.org.uk](https://amsat-dl.org/en/)
 - Swift Community [swift.org](https://swift.org)
 
 ## License
