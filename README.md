@@ -9,12 +9,12 @@ SatController, together with [SatServer](https://github.com/ea7kir/SatServer) an
 ## Platform
 
 - Apple iMac
-- macOS 12 (Monterery)
+- macOS 12 (Monterey)
 - Swift 5.6 (included with Xcode)
 
 ## Implementation
 
-The Controller Server and Receive are written in Swift, with Swift-NIO for the networking.  The server and receiver run as a service on the latest 64-bit version of Raspberry Pi OS Lite.  The controller is a desktop application with a SwiftUI user interface on an Apple iMac.  Transmitted audio & video is sourced internally from the Mac version of OBS. Received audio & video can be monitored with VNC on the iMac or an Apple TV and HDMI television. All other equipment (transmitter, power amplifier, receiver, power supplies, peripherals and ancillaries) are situated outdoors - weather protected and close to the antennas.
+SatController, SatServer and SatReceiver are written in Swift, with Swift-NIO for the networking.  The server and receiver run as a service on the latest 64-bit version of Raspberry Pi OS Lite.  The controller is a desktop application with a SwiftUI user interface on an Apple iMac.  Transmitted audio & video is sourced internally from the Mac version of OBS. Received audio & video can be monitored with VNC on the iMac or an Apple TV and HDMI television. All other equipment (transmitter, power amplifier, receiver, power supplies, peripherals and ancillaries) are situated outdoors - weather protected and close to the antennas.
 
 ## Supported Devices
 
@@ -28,7 +28,7 @@ The Controller Server and Receive are written in Swift, with Swift-NIO for the n
 
 ## Current Status
 
-**THIS IS WORK IN PROGRESS, SO NO SOURCE CODE YET**
+**THIS IS WORK IN PROGRESS, SO SOME FUNCTIONALITY MAY BE MISSING**
 
 ## Acknowledgements
 
