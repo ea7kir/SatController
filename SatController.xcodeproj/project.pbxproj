@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2757484027E79376009DAD32 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2757483F27E79376009DAD32 /* Credits.rtf */; };
+		2757484227E79414009DAD32 /* makeSpectrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2757484127E79414009DAD32 /* makeSpectrumData.swift */; };
+		2757484527E79450009DAD32 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 2757484427E79450009DAD32 /* Screenshot.png */; };
+		2757484727E7946E009DAD32 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2757484627E7946E009DAD32 /* LICENSE */; };
+		2757484927E7947C009DAD32 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2757484827E7947C009DAD32 /* README.md */; };
+		275D4EF327E750B4005C8AE2 /* SatControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D4EF227E750B4005C8AE2 /* SatControllerApp.swift */; };
+		275D4EF727E750B7005C8AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 275D4EF627E750B7005C8AE2 /* Assets.xcassets */; };
+		2765072F2811B3A100F5875D /* NIO_TCP_Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2765072E2811B3A100F5875D /* NIO_TCP_Client.swift */; };
+		279E783128575536000AD707 /* RxStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E783028575536000AD707 /* RxStatusAPI.swift */; };
+		279E783328575CBE000AD707 /* TxStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E783228575CBE000AD707 /* TxStatusAPI.swift */; };
+		279E783528575E09000AD707 /* BbStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E783428575E09000AD707 /* BbStatusAPI.swift */; };
+		279E783728576186000AD707 /* SsStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E783628576186000AD707 /* SsStatusAPI.swift */; };
+		279E7839285763B5000AD707 /* ServerCommandAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279E7838285763B5000AD707 /* ServerCommandAPI.swift */; };
+		27A7003B28881C1E0097EC72 /* ButtonsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A7003A28881C1E0097EC72 /* ButtonsModel.swift */; };
+		27ADD715283806E7003E9CDA /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 27ADD714283806E7003E9CDA /* Yams */; };
+		27CA131B28855A9700630EB3 /* SpectrumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CA131A28855A9700630EB3 /* SpectrumModel.swift */; };
+		27D40DEB27E751C0004FF2AA /* BigGreenText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DEA27E751C0004FF2AA /* BigGreenText.swift */; };
+		27D40DED27E751E4004FF2AA /* TinyGreenText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DEC27E751E4004FF2AA /* TinyGreenText.swift */; };
+		27D40DEF27E7522E004FF2AA /* OrangeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DEE27E7522E004FF2AA /* OrangeText.swift */; };
+		27D40DF127E75253004FF2AA /* NormalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DF027E75253004FF2AA /* NormalButton.swift */; };
+		27D40DFE27E752AA004FF2AA /* SpectrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DF627E752AA004FF2AA /* SpectrumView.swift */; };
+		27D40DFF27E752AA004FF2AA /* TransmiterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DF727E752AA004FF2AA /* TransmiterView.swift */; };
+		27D40E0027E752AA004FF2AA /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DF827E752AA004FF2AA /* StatusView.swift */; };
+		27D40E0127E752AA004FF2AA /* ServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DF927E752AA004FF2AA /* ServerView.swift */; };
+		27D40E0227E752AA004FF2AA /* CallSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DFA27E752AA004FF2AA /* CallSignView.swift */; };
+		27D40E0327E752AA004FF2AA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DFB27E752AA004FF2AA /* ButtonView.swift */; };
+		27D40E0427E752AA004FF2AA /* ReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DFC27E752AA004FF2AA /* ReceiverView.swift */; };
+		27D40E0527E752AA004FF2AA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40DFD27E752AA004FF2AA /* RootView.swift */; };
+		27D40E0827E752D5004FF2AA /* RootModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40E0627E752D5004FF2AA /* RootModel.swift */; };
+		27D40E0927E752D5004FF2AA /* WSS_Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40E0727E752D5004FF2AA /* WSS_Client.swift */; };
+		27D40E0E27E752FE004FF2AA /* Formating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40E0A27E752FE004FF2AA /* Formating.swift */; };
+		27D40E1027E752FE004FF2AA /* SpectrumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40E0C27E752FE004FF2AA /* SpectrumAPI.swift */; };
+		27D40E1127E752FE004FF2AA /* ServerStatusAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D40E0D27E752FE004FF2AA /* ServerStatusAPI.swift */; };
+		27F8A0F12821ABB400D660E7 /* NIOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 27F8A0F02821ABB400D660E7 /* NIOCore */; };
+		27F8A0F32821ABB400D660E7 /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = 27F8A0F22821ABB400D660E7 /* NIOFoundationCompat */; };
+		27F8A0F52821ABB400D660E7 /* NIOPosix in Frameworks */ = {isa = PBXBuildFile; productRef = 27F8A0F42821ABB400D660E7 /* NIOPosix */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2757483F27E79376009DAD32 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		2757484127E79414009DAD32 /* makeSpectrumData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = makeSpectrumData.swift; sourceTree = "<group>"; };
+		2757484427E79450009DAD32 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		2757484627E7946E009DAD32 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2757484827E7947C009DAD32 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		275D4EEF27E750B4005C8AE2 /* SatController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275D4EF227E750B4005C8AE2 /* SatControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatControllerApp.swift; sourceTree = "<group>"; };
+		275D4EF627E750B7005C8AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		275D4EFB27E750B7005C8AE2 /* SatController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SatController.entitlements; sourceTree = "<group>"; };
+		2765072E2811B3A100F5875D /* NIO_TCP_Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIO_TCP_Client.swift; sourceTree = "<group>"; };
+		279E783028575536000AD707 /* RxStatusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxStatusAPI.swift; sourceTree = "<group>"; };
+		279E783228575CBE000AD707 /* TxStatusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxStatusAPI.swift; sourceTree = "<group>"; };
+		279E783428575E09000AD707 /* BbStatusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BbStatusAPI.swift; sourceTree = "<group>"; };
+		279E783628576186000AD707 /* SsStatusAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SsStatusAPI.swift; sourceTree = "<group>"; };
+		279E7838285763B5000AD707 /* ServerCommandAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCommandAPI.swift; sourceTree = "<group>"; };
+		27A7003A28881C1E0097EC72 /* ButtonsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsModel.swift; sourceTree = "<group>"; };
+		27ADD71628381076003E9CDA /* SatControllerRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SatControllerRelease.entitlements; sourceTree = "<group>"; };
+		27CA131A28855A9700630EB3 /* SpectrumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumModel.swift; sourceTree = "<group>"; };
+		27D40DEA27E751C0004FF2AA /* BigGreenText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigGreenText.swift; sourceTree = "<group>"; };
+		27D40DEC27E751E4004FF2AA /* TinyGreenText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyGreenText.swift; sourceTree = "<group>"; };
+		27D40DEE27E7522E004FF2AA /* OrangeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeText.swift; sourceTree = "<group>"; };
+		27D40DF027E75253004FF2AA /* NormalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalButton.swift; sourceTree = "<group>"; };
+		27D40DF627E752AA004FF2AA /* SpectrumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectrumView.swift; sourceTree = "<group>"; };
+		27D40DF727E752AA004FF2AA /* TransmiterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransmiterView.swift; sourceTree = "<group>"; };
+		27D40DF827E752AA004FF2AA /* StatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		27D40DF927E752AA004FF2AA /* ServerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerView.swift; sourceTree = "<group>"; };
+		27D40DFA27E752AA004FF2AA /* CallSignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallSignView.swift; sourceTree = "<group>"; };
+		27D40DFB27E752AA004FF2AA /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		27D40DFC27E752AA004FF2AA /* ReceiverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiverView.swift; sourceTree = "<group>"; };
+		27D40DFD27E752AA004FF2AA /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		27D40E0627E752D5004FF2AA /* RootModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootModel.swift; sourceTree = "<group>"; };
+		27D40E0727E752D5004FF2AA /* WSS_Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSS_Client.swift; sourceTree = "<group>"; };
+		27D40E0A27E752FE004FF2AA /* Formating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formating.swift; sourceTree = "<group>"; };
+		27D40E0C27E752FE004FF2AA /* SpectrumAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectrumAPI.swift; sourceTree = "<group>"; };
+		27D40E0D27E752FE004FF2AA /* ServerStatusAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerStatusAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275D4EEC27E750B4005C8AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F8A0F32821ABB400D660E7 /* NIOFoundationCompat in Frameworks */,
+				27F8A0F52821ABB400D660E7 /* NIOPosix in Frameworks */,
+				27ADD715283806E7003E9CDA /* Yams in Frameworks */,
+				27F8A0F12821ABB400D660E7 /* NIOCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2757483E27E79363009DAD32 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				2757483F27E79376009DAD32 /* Credits.rtf */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		2757484327E7943A009DAD32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2757484427E79450009DAD32 /* Screenshot.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		275D4EE627E750B3005C8AE2 = {
+			isa = PBXGroup;
+			children = (
+				2757484627E7946E009DAD32 /* LICENSE */,
+				2757484827E7947C009DAD32 /* README.md */,
+				2757484327E7943A009DAD32 /* Images */,
+				275D4EF127E750B4005C8AE2 /* SatController */,
+				275D4EF027E750B4005C8AE2 /* Products */,
+				278329ED28A83A2C000117A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		275D4EF027E750B4005C8AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275D4EEF27E750B4005C8AE2 /* SatController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275D4EF127E750B4005C8AE2 /* SatController */ = {
+			isa = PBXGroup;
+			children = (
+				27ADD71628381076003E9CDA /* SatControllerRelease.entitlements */,
+				2765072D2811B37E00F5875D /* Networks */,
+				2757483E27E79363009DAD32 /* About */,
+				275D4EF227E750B4005C8AE2 /* SatControllerApp.swift */,
+				275D4EF627E750B7005C8AE2 /* Assets.xcassets */,
+				275D4EFB27E750B7005C8AE2 /* SatController.entitlements */,
+				27D40DE627E7515D004FF2AA /* API+Formating */,
+				27D40DE727E75173004FF2AA /* Models */,
+				27D40DE827E75180004FF2AA /* Views */,
+				27D40DE927E75190004FF2AA /* CustomViews */,
+			);
+			path = SatController;
+			sourceTree = "<group>";
+		};
+		2765072D2811B37E00F5875D /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				2765072E2811B3A100F5875D /* NIO_TCP_Client.swift */,
+				27D40E0727E752D5004FF2AA /* WSS_Client.swift */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		278329ED28A83A2C000117A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27D40DE627E7515D004FF2AA /* API+Formating */ = {
+			isa = PBXGroup;
+			children = (
+				279E783428575E09000AD707 /* BbStatusAPI.swift */,
+				27D40E0A27E752FE004FF2AA /* Formating.swift */,
+				279E783028575536000AD707 /* RxStatusAPI.swift */,
+				279E7838285763B5000AD707 /* ServerCommandAPI.swift */,
+				27D40E0D27E752FE004FF2AA /* ServerStatusAPI.swift */,
+				27D40E0C27E752FE004FF2AA /* SpectrumAPI.swift */,
+				279E783628576186000AD707 /* SsStatusAPI.swift */,
+				279E783228575CBE000AD707 /* TxStatusAPI.swift */,
+			);
+			path = "API+Formating";
+			sourceTree = "<group>";
+		};
+		27D40DE727E75173004FF2AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27D40E0627E752D5004FF2AA /* RootModel.swift */,
+				2757484127E79414009DAD32 /* makeSpectrumData.swift */,
+				27CA131A28855A9700630EB3 /* SpectrumModel.swift */,
+				27A7003A28881C1E0097EC72 /* ButtonsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27D40DE827E75180004FF2AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27D40DFB27E752AA004FF2AA /* ButtonView.swift */,
+				27D40DFA27E752AA004FF2AA /* CallSignView.swift */,
+				27D40DFC27E752AA004FF2AA /* ReceiverView.swift */,
+				27D40DFD27E752AA004FF2AA /* RootView.swift */,
+				27D40DF927E752AA004FF2AA /* ServerView.swift */,
+				27D40DF627E752AA004FF2AA /* SpectrumView.swift */,
+				27D40DF827E752AA004FF2AA /* StatusView.swift */,
+				27D40DF727E752AA004FF2AA /* TransmiterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27D40DE927E75190004FF2AA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				27D40DEA27E751C0004FF2AA /* BigGreenText.swift */,
+				27D40DEC27E751E4004FF2AA /* TinyGreenText.swift */,
+				27D40DEE27E7522E004FF2AA /* OrangeText.swift */,
+				27D40DF027E75253004FF2AA /* NormalButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275D4EEE27E750B4005C8AE2 /* SatController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275D4EFE27E750B7005C8AE2 /* Build configuration list for PBXNativeTarget "SatController" */;
+			buildPhases = (
+				275D4EEB27E750B4005C8AE2 /* Sources */,
+				275D4EEC27E750B4005C8AE2 /* Frameworks */,
+				275D4EED27E750B4005C8AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatController;
+			packageProductDependencies = (
+				27F8A0F02821ABB400D660E7 /* NIOCore */,
+				27F8A0F22821ABB400D660E7 /* NIOFoundationCompat */,
+				27F8A0F42821ABB400D660E7 /* NIOPosix */,
+				27ADD714283806E7003E9CDA /* Yams */,
+			);
+			productName = SatController;
+			productReference = 275D4EEF27E750B4005C8AE2 /* SatController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275D4EE727E750B3005C8AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					275D4EEE27E750B4005C8AE2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 275D4EEA27E750B3005C8AE2 /* Build configuration list for PBXProject "SatController" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 275D4EE627E750B3005C8AE2;
+			packageReferences = (
+				27F8A0EF2821ABB400D660E7 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				27ADD713283806E7003E9CDA /* XCRemoteSwiftPackageReference "Yams" */,
+			);
+			productRefGroup = 275D4EF027E750B4005C8AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275D4EEE27E750B4005C8AE2 /* SatController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275D4EED27E750B4005C8AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275D4EF727E750B7005C8AE2 /* Assets.xcassets in Resources */,
+				2757484027E79376009DAD32 /* Credits.rtf in Resources */,
+				2757484927E7947C009DAD32 /* README.md in Resources */,
+				2757484727E7946E009DAD32 /* LICENSE in Resources */,
+				2757484527E79450009DAD32 /* Screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275D4EEB27E750B4005C8AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A7003B28881C1E0097EC72 /* ButtonsModel.swift in Sources */,
+				27D40E0127E752AA004FF2AA /* ServerView.swift in Sources */,
+				27D40DED27E751E4004FF2AA /* TinyGreenText.swift in Sources */,
+				27D40E1027E752FE004FF2AA /* SpectrumAPI.swift in Sources */,
+				2757484227E79414009DAD32 /* makeSpectrumData.swift in Sources */,
+				2765072F2811B3A100F5875D /* NIO_TCP_Client.swift in Sources */,
+				27D40E0927E752D5004FF2AA /* WSS_Client.swift in Sources */,
+				27D40E0827E752D5004FF2AA /* RootModel.swift in Sources */,
+				27D40DFE27E752AA004FF2AA /* SpectrumView.swift in Sources */,
+				279E783728576186000AD707 /* SsStatusAPI.swift in Sources */,
+				27D40E0027E752AA004FF2AA /* StatusView.swift in Sources */,
+				279E783328575CBE000AD707 /* TxStatusAPI.swift in Sources */,
+				27D40DF127E75253004FF2AA /* NormalButton.swift in Sources */,
+				275D4EF327E750B4005C8AE2 /* SatControllerApp.swift in Sources */,
+				27D40DEF27E7522E004FF2AA /* OrangeText.swift in Sources */,
+				27CA131B28855A9700630EB3 /* SpectrumModel.swift in Sources */,
+				27D40E0E27E752FE004FF2AA /* Formating.swift in Sources */,
+				27D40E0427E752AA004FF2AA /* ReceiverView.swift in Sources */,
+				27D40E0327E752AA004FF2AA /* ButtonView.swift in Sources */,
+				279E7839285763B5000AD707 /* ServerCommandAPI.swift in Sources */,
+				27D40E0227E752AA004FF2AA /* CallSignView.swift in Sources */,
+				279E783128575536000AD707 /* RxStatusAPI.swift in Sources */,
+				27D40DFF27E752AA004FF2AA /* TransmiterView.swift in Sources */,
+				279E783528575E09000AD707 /* BbStatusAPI.swift in Sources */,
+				27D40DEB27E751C0004FF2AA /* BigGreenText.swift in Sources */,
+				27D40E1127E752FE004FF2AA /* ServerStatusAPI.swift in Sources */,
+				27D40E0527E752AA004FF2AA /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		275D4EFC27E750B7005C8AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		275D4EFD27E750B7005C8AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		275D4EFF27E750B7005C8AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SatController/SatController.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 89QVWNRVH2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.michaelnaylor.SatController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		275D4F0027E750B7005C8AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SatController/SatControllerRelease.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 89QVWNRVH2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.michaelnaylor.SatController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275D4EEA27E750B3005C8AE2 /* Build configuration list for PBXProject "SatController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275D4EFC27E750B7005C8AE2 /* Debug */,
+				275D4EFD27E750B7005C8AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275D4EFE27E750B7005C8AE2 /* Build configuration list for PBXNativeTarget "SatController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275D4EFF27E750B7005C8AE2 /* Debug */,
+				275D4F0027E750B7005C8AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27ADD713283806E7003E9CDA /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		27F8A0EF2821ABB400D660E7 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27ADD714283806E7003E9CDA /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27ADD713283806E7003E9CDA /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+		27F8A0F02821ABB400D660E7 /* NIOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27F8A0EF2821ABB400D660E7 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOCore;
+		};
+		27F8A0F22821ABB400D660E7 /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27F8A0EF2821ABB400D660E7 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+		27F8A0F42821ABB400D660E7 /* NIOPosix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27F8A0EF2821ABB400D660E7 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOPosix;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 275D4EE727E750B3005C8AE2 /* Project object */;
+}
