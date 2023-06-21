@@ -84,7 +84,7 @@ class WSS_Client: AsyncSequence {
         }
     }
     
-    // TODO: send() has not been tested
+    // TODO: send() is not required, so has not been tested
     func send(str: String) async {
         let message = URLSessionWebSocketTask.Message.string(str)
         do {

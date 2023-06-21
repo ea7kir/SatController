@@ -1,5 +1,7 @@
 # SatController
 
+**This project is Archived, so further development is unlikely.**
+
 ![SatController](Images/Screenshot.png)
 
 ## Description
@@ -28,7 +30,7 @@ SatController, SatServer and SatReceiver are written in Swift, with Swift-NIO fo
 
 ## Current Status
 
-**THIS IS WORK IN PROGRESS, SO SOME FUNCTIONALITY MAY BE MISSING**
+**WORK IN PROGRESS, SO SOME FUNCTIONALITY MAY BE MISSING**
 
 ## Acknowledgements
 
