@@ -1,6 +1,6 @@
 # SatController
 
-**This project is Archived. Further development is unlikely.**
+**THIS PROJECT IS ARCHIVED - FURTHER DEVELOPMENT IS UNLIKELY**
 
 ![SatController](Images/Screenshot.png)
 
